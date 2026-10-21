@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce_task1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.17.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-mysql-session": "^3.0.3",
+    "express-validator": "^7.3.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.22.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "module"
+}

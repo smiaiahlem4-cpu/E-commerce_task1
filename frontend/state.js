@@ -1,0 +1,1 @@
+export let quantities = JSON.parse(localStorage.getItem('quantities')) || {};
